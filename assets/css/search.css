@@ -1,0 +1,83 @@
+/*Variable de couleur*/
+:root{
+    --light-gray: #eee; 
+    --gray-footer: #1f1f1f;
+    --gray-footer-btn: #444;
+    --primary-gray: #98a5a5;
+    --primary-blue: #509bd7;
+    --primary-color: #d35649;
+    --primary-purple: #575a89;
+}
+.donne{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.filter{
+    margin: 3% 0;
+    padding: 2% 0;
+    text-align: center;
+    background-color:var(--primary-gray) ;
+}
+.enter{
+    width: 15%;
+    text-align: left;
+    margin-right: 2%;
+}
+.feno{
+    border: 0;
+    width: 100%;
+    border-radius: 3px;
+}
+.re{
+    border: none;
+    color: white;
+    border-radius: 6px;
+    background-color: var(--primary-blue);
+}
+.clear{
+    border: none;
+    color: white;
+    border-radius: 6px;
+    background-color:orange;
+}
+.fita{
+    width: 80%;
+    margin: auto;
+}
+.mx-2{
+    background-color: var(--primary-color);
+}
+figure{
+    position: relative;
+}
+figcaption{
+    top: 0;
+    width: 100%;
+    padding: 1% 0;
+    text-align: center;
+    position: absolute;
+    color: var(--light-gray);
+    text-shadow: 0.05em 0.05em var(--light-gray);
+}
+.soa{
+    text-align: center;
+    color: var(--primary-gray);
+}
+
+@media screen and (max-width:765px) {
+    header{
+        display: block;
+    }
+    .fita{
+        display: block;
+    }
+    .tpetit{
+        width: 50%;
+        margin: auto ;
+    }
+    .grand{
+        text-align: center;
+    }
+}
